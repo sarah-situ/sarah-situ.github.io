@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+  background-image: url(https://img.freepik.com/free-photo/anime-style-clouds_23-2151071780.jpg?t=st=1711759880~exp=1711763480~hmac=1ecf1e9c9cba2a89e6c7f786abacbab9caa14bf39d91f61b493cae2db3d2d5e3&w=2000);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  overflow-y: hidden; /* Hide scrollbars */
+}
+
+h1,
+h3,
+p {
+  text-align: center;
+}
+
+.tabs {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  padding: 20px 10px 60px;
+  tab-size: 50px;
+  opacity: 0.7;
+}
+
+button {
+  font-size: 25px;
+  font-family: sans-serif, monospace;
+}
+
+.about-section {
+  position: relative;
+  background: rgba(230, 227, 227, 0.7);
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.aboutme {
+  border-color: 1px solid black;
+}
+
+.first {
+  font-family: 100%/1.4, monospace;
+  color: #000;
+  filter: alpha(opacity=100);
+  opacity: 1;
+  padding: 15px;
+}
+
+.flex-wrapper {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin-top: 50px;
+}

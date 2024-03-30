@@ -1,10 +1,54 @@
-<html>
-  <head>
-    <title>My blog</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head class="banner">
+    <meta chartset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Sarah's Blog</title>
   </head>
-  <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1>
-    <p>This is the beginning of my website home page.</p>
-    <p>It will eventually contain a list of links to all my blogs.</p>
+
+  <body class="bigbox">
+    <h1>Kia ora! Welcome!</h1>
+    <h1>Sarah's Blog</h1>
+
+    <div class="aboutme">
+      <p>This is the beginning of my website home page.</p>
+      <p>It will eventually contain a list of links to all my blogs.</p>
+    </div>
+
+    <!-- Tab links -->
+    <div class="tabs">
+      <a href="blog/te-houtaewa-template.html"
+        ><button class="te-houtaewa" onClick="openpage">Te Houtaewa</button></a
+      >
+      <a href="identity-values.html"
+        ><button class="Identity Values" onClick="openpage">
+          Identity Values
+        </button></a
+      >
+      <a href="learning-plan.html"
+        ><button class="Learning Plan" onClick="openpage">
+          Learning Plan
+        </button></a
+      >
+      <a href="html-css.html"
+        ><button class="Learn HTML & CSS" onClick="openpage">
+          Learn HTML & CSS
+        </button></a
+      >
+    </div>
+
+    <div class="about-section">
+      <h1>About</h1>
+      <p class="first">Hi I'm Sarah! I'm from Wellington.</p>
+      <p>
+        This blog is going to be dedicated to my journey of becoming a software
+        developer.
+      </p>
+    </div>
+
+    <div class="flex-wrapper">
+      <div class="footer">Copyright &copy; 2024 Sarah Situ</div>
+    </div>
   </body>
 </html>

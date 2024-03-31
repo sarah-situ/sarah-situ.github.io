@@ -6,8 +6,12 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  padding: 30px;
   overflow-y: scroll;
+  overflow-x: hidden;
+  min-width: 300px;
+  align-items: center;
+  text-align: center;
+  border-right: 10px;
 }
 
 body::-webkit-scrollbar {
@@ -42,10 +46,10 @@ button {
   position: relative;
   background: rgba(230, 227, 227, 0.7);
   text-align: center;
-  padding: 20px 20px 20px 20px;
-  margin-right: auto;
-  margin-left: auto;
-  width: 500px;
+  padding: 15px 15px 15px 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  min-width: 150px;
 }
 
 .aboutme {
@@ -67,8 +71,13 @@ button {
   flex-direction: column;
   margin-top: 50px;
 }
+
 .container img {
   object-fit: contain;
-  display: inline-flexbox;
-  width: 400px;
+  width: 80%;
+}
+@media only screen and (max-width: 480px) {
+  img {
+    width: 80%;
+  }
 }

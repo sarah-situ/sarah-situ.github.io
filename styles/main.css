@@ -16,6 +16,7 @@ body::-webkit-scrollbar {
 
 h1,
 h3,
+h2,
 p {
   text-align: center;
 }
@@ -64,4 +65,14 @@ button {
   min-height: 100vh;
   flex-direction: column;
   margin-top: 50px;
+}
+
+.htmlcssphoto {
+  padding: 2px;
+}
+
+p {
+  margin: 10px 0;
+  padding: 2px 160px;
+  text-indent: 5px;
 }

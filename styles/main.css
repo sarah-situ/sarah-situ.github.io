@@ -46,7 +46,7 @@ button {
   position: relative;
   background: rgba(230, 227, 227, 0.7);
   text-align: center;
-  padding: 15px 15px 15px 15px;
+  padding: 20px 20px 20px 20px;
   margin-right: 15px;
   margin-left: 15px;
   min-width: 150px;
@@ -74,10 +74,14 @@ button {
 
 .container img {
   object-fit: contain;
-  width: 80%;
+  min-width: 200px;
 }
 @media only screen and (max-width: 480px) {
   img {
-    width: 80%;
+    width: 20%;
+  }
+  body {
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }

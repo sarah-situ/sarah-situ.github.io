@@ -45,6 +45,7 @@ button {
   padding: 20px 20px 20px 20px;
   margin-right: auto;
   margin-left: auto;
+  width: 500px;
 }
 
 .aboutme {
@@ -67,7 +68,7 @@ button {
   margin-top: 50px;
 }
 .container img {
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
+  object-fit: contain;
+  display: inline-flexbox;
+  width: 400px;
 }

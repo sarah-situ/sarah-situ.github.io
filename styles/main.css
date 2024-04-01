@@ -18,8 +18,13 @@ body::-webkit-scrollbar {
 }
 
 h1,
+h2,
 h3,
-h2 {
+p {
+  font-family: sans-serif, monospace;
+}
+
+h1 {
   text-align: center;
 }
 

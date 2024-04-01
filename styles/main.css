@@ -19,9 +19,12 @@ body::-webkit-scrollbar {
 
 h1,
 h3,
-h2,
-p {
+h2 {
   text-align: center;
+}
+
+p {
+  text-align: left;
 }
 
 .tabs {

@@ -51,7 +51,7 @@ button {
 
 .about-section {
   position: relative;
-  background: rgba(244, 200, 119, 0.983);
+  background: rgb(191, 171, 224);
   padding: 20px 20px 20px 20px;
   margin-right: 15px;
   margin-left: 15px;
@@ -61,6 +61,8 @@ button {
 
 .aboutme {
   border-color: 1px solid black;
+  text-align: center;
+  background-color: rgb(191, 171, 224);
 }
 
 .flex-wrapper {

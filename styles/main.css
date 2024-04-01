@@ -24,7 +24,8 @@ p {
   font-family: sans-serif, monospace;
 }
 
-h1 {
+h1,
+h2 {
   text-align: center;
 }
 

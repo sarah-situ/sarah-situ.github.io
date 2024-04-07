@@ -7,6 +7,46 @@
     <link href="../styles/main.css" rel="stylesheet" type="text/css" />
   </head>
 
+  <style>
+    .date {
+      text-align: center;
+    }
+  </style>
+
+  <!--Responsive Topnav  -->
+
+  <div class="topnav" id="myTopnav">
+    <a href="/index.html " class="active">Home</a>
+    <a href="/blog/te-houtaewa-template.html">Te Houtaewa</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">
+        Tech
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/html-css.html">Learn HTML & CSS</a>
+        <a href="/javascript-dom.html">JavaScript & DOM</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Core
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/identity-values.html">Identity Values</a>
+        <a href="/learning-plan.html">Learning Plan</a>
+        <a href="/emotional-intelligence.html">Emotional Intelligence</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+      >&#9776;</a
+    >
+  </div>
+  <!-- -->
+
   <body>
     <h1>The Story of Te Houtaewa (PAGE heading)</h1>
     <h2>
@@ -16,7 +56,7 @@
       >
       (Optional SUB title)
     </h2>
-    <h3>10 November 2010</h3>
+    <h3 class="date">10 November 2010</h3>
 
     <p class="about-section">
       Te Houtaewa was the fastest runner of his day and played many pranks on

@@ -11,28 +11,37 @@
     <h1>Kia ora! Welcome!</h1>
     <h1>Sarah's Blog</h1>
 
-    <!-- Tab links -->
-    <div class="tabs">
-      <a href="blog/te-houtaewa-template.html"
-        ><button class="te-houtaewa" onClick="openpage">Te Houtaewa</button></a
-      >
-      <a href="identity-values.html"
-        ><button class="Identity Values" onClick="openpage">
-          Identity Values
-        </button></a
-      >
-      <a href="learning-plan.html"
-        ><button class="Learning Plan" onClick="openpage">
-          Learning Plan
-        </button></a
-      >
-      <a href="html-css.html"
-        ><button class="Learn HTML & CSS" onClick="openpage">
-          Learn HTML & CSS
-        </button></a
-      >
+<!--Responsive Topnav  -->
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="blog/te-houtaewa-template.html">Te Houtaewa</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Tech
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="html-css.html">Learn HTML & CSS</a>
+      <a href="javascript-dom.html">JavaScript & DOM</a>
+      <a href="#">Link 3</a>
     </div>
-    
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Core
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="identity-values.html">Identity Values</a>
+      <a href="learning-plan.html">Learning Plan</a>
+      <a href="emotional-intelligence.html">Emotional Intelligence</a>
+    </div>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+ <!-- --> 
+
+
     <div class="intro">
       <h3>
         This is the beginning of my website home page.<br />

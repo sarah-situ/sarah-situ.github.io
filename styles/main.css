@@ -215,13 +215,19 @@ p {
   height: 160px;
   margin: auto;
 }
-
+/*  background for te whare tapa wha */
 .TeWhareTapaWha {
   background: url(/mediaforblog/plane.jpg);
   background-size: 100% 100%;
   background-position: center top;
 }
 
+/* background for neuroplasticity */
+.neurobackground {
+  background: url(/mediaforblog/forest.jpg);
+  background-size: 100% 100%;
+  background-position: center top;
+}
 .container img {
   object-fit: contain;
   min-width: 200px;

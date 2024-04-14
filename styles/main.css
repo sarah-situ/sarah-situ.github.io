@@ -156,7 +156,7 @@ h2 {
 
 p {
   text-align: left;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .about-section {
@@ -225,6 +225,13 @@ p {
 /* background for neuroplasticity */
 .neurobackground {
   background: url(/mediaforblog/forest.jpg);
+  background-size: 100% 100%;
+  background-position: center top;
+}
+
+/* background for problem solving */
+.astrobackground {
+  background: url(/mediaforblog/Astro.jpg);
   background-size: 100% 100%;
   background-position: center top;
 }

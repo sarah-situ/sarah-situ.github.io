@@ -235,6 +235,14 @@ p {
   background-size: 100% 100%;
   background-position: center top;
 }
+
+/* background for foundations reflections*/
+.foundations {
+  background: url(/mediaforblog/Underwater-3.jpg);
+  background-size: 100% 100%;
+  background-position: center top;
+}
+
 .container img {
   object-fit: contain;
   min-width: 200px;
